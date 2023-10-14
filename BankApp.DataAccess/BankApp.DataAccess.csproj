@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="EntityConfiguration\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Seed\" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+
 </Project>
