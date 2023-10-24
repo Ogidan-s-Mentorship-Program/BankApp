@@ -1,15 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace BankApp.DataAccess.Entities
 {
     public class NextOfKin : User
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
+        [Key] 
+        public new Guid Id { get; set; } = Guid.NewGuid();
+
+        [Required] 
         public string AccountId { get; set; }
+
+        [Required] 
         public Guid UserId { get; set; }
     }
 }
