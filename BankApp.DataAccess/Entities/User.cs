@@ -9,7 +9,8 @@ namespace BankApp.DataAccess.Entities
         [Key] 
         public Guid Id { get; set; } = Guid.NewGuid();
 
-        [Required] 
+        [Required]
+        [MaxLength(100)]
         public string FirstName { get; set; }
 
         [Required] 
