@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BankApp.Domain.Entites
 {
-    internal class Staff
+    public class Staff : User
     {
+        public new Guid Id { get; set; }
+        public string Role { get; set; }
+        public string Department { get; set; }
     }
 }

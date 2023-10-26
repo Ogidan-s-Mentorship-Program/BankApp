@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BankApp.Domain.Entites
 {
-    internal class NextOfKin
+    public class NextOfKin : User
     {
+        public new Guid Id { get; set; } = Guid.NewGuid();
+        public string AccountId { get; set; }
+        public Guid UserId { get; set; }
     }
 }
