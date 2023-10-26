@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace BankApp.Domain.Entites
 {
-    public class Guarantor : User
+    public class Guarantor 
     {
-        public new Guid Id { get; set; } = Guid.NewGuid();
+        public new Guid Id { get; set; } 
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string MiddleName { get; set; }
         public Guid LoanId { get; set; }
         public string BVN { get; set; }
         public string NIN { get; set; }
