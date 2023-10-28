@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Context\" />
+    <Folder Include="Entities\" />
     <Folder Include="EntityConfiguration\" />
     <Folder Include="Extensions\" />
     <Folder Include="Seed\" />
