@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankApp.Domain.Entites
 {
-    public class Customer
+    public class User
     {
     }
 }
