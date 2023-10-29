@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="BackgroundServices\" />
+    <Folder Include="MailServices\" />
+  </ItemGroup>
+
 </Project>
