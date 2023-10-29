@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BankApp.Domain.Entites
 {
 	public class Account
-	{
+    {
 		public Guid Id { get; set; } = Guid.NewGuid();
 		public string AccountNumber { get; set; }
 		public decimal Balance { get; set; }
@@ -18,5 +18,5 @@ namespace BankApp.Domain.Entites
 		public string HolderAddress { get; set; }
 		public bool IsActive { get; set; }
 		public Guid UserId { get; set; }
-	}
+    }
 }

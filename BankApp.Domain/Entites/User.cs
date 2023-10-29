@@ -23,8 +23,8 @@ namespace BankApp.Domain.Entites
 	}
 
 	public enum Gender
-	{
+    {
 		Male,
 		Female
-	}
+    }
 }

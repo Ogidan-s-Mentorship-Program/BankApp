@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BankApp.Domain.Entites
 {
 	public class BillPayment
-	{
+    {
 		public Guid Id { get; set; }
 		public Guid UserId { get; set; }
 		public decimal Amount { get; set; }
@@ -15,5 +15,5 @@ namespace BankApp.Domain.Entites
 		public Guid TransactionId { get; set; }
 		public decimal Charges { get; set; }
 		public DateTime PaymentDate { get; set; }
-	}
+    }
 }
