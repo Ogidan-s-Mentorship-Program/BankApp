@@ -8,7 +8,7 @@ namespace BankApp.Domain.Entites
 {
 	public class Customer
 	{
-		public Guid Id { get; set; } = Guid.NewGuid();
+		public Guid Id { get; set; }
 		public Guid UserId { get; set; }
 	}
 }
