@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace BankApp.Domain.Entites
 {
-    internal class Transactions
+    public class Transactions
     {
-    }
+		public int TransactionId { get; set; }
+		public string Description { get; set; }
+		public decimal Amount { get; set; }
+		public DateTime TransactionDate { get; set; }
+		public string Merchant { get; set; }
+		public string PaymentMethod { get; set; }
+		public string Category { get; set; }
+		public string Currency { get; set; }
+		public string Location { get; set; }
+		public Guid UserId { get; set; }
+	}
 }

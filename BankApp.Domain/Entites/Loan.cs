@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace BankApp.Domain.Entites
 {
-    internal class Loan
+	public class Loan
     {
+		public Guid Id { get; set; }
+		public Guid UserId { get; set; }
+		public string LoanType { get; set; }
+		public decimal LoanAmount { get; set; }
+		public decimal OutstandingBalance { get; set; }
+		public decimal InterestRate { get; set; }
+		public DateTime NextPaymentDueDate { get; set; }
     }
 }
