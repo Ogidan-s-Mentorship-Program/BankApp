@@ -1,12 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BankApp.Domain.Entites;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace BankApp.DataAccess.EntityConfiguration
+namespace BankApp.Data.EntityConfiguration
 {
-    internal class PhoneNumberConfiguration
+    public class PhoneNumberConfiguration : IEntityTypeConfiguration<PhoneNumber>
     {
+        public void Configure(EntityTypeBuilder<PhoneNumber> builder)
+        {
+            builder.HasKey(p => p.Id);
+
+            builder.Property(p => p.Extension)
+                .HasMaxLength(10);
+
+            builder.Property(p => p.Number)
+                .HasMaxLength(15);
+
+            builder.Property(p => p.UserId)
+                .IsRequired();
+
+       
+        }
     }
 }

@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BankApp.Domain.Entites;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace BankApp.DataAccess.EntityConfiguration
+namespace BankApp.Data.EntityConfiguration
 {
-    internal class NextOfKinConfiguration
+    public class NextOfKinConfiguration : IEntityTypeConfiguration<NextOfKin>
     {
+        public void Configure(EntityTypeBuilder<NextOfKin> builder)
+        {
+            builder.HasKey(n => n.Id);
+
+            builder.Property(n => n.AccountId)
+                .HasMaxLength(50);
+
+            builder.Property(n => n.UserId)
+                .IsRequired();
+
+       
+        }
     }
 }
