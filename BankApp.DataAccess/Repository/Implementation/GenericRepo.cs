@@ -1,4 +1,6 @@
-﻿using BankApp.DataAccess.Repository.Interface;
+﻿using BankApp.DataAccess.Context;
+using BankApp.DataAccess.Repository.Interface;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,39 +11,75 @@ namespace BankApp.DataAccess.Repository.Implementation
 {
 	public class GenericRepo<T> : IGenericRepo<T> where T : class
 	{
-
-		public GenericRepo()
+		private AppDbContext _appDbContext { get; set; }
+		private DbSet<T> _dbSet;
+		public GenericRepo(AppDbContext appDbContext, DbSet<T> dbSet)
 		{
-
+			_appDbContext = appDbContext;
+			_dbSet = appDbContext.Set<T>();
 		}
-		public Task DeleteAsync(Guid id)
+		public virtual async Task DeleteAsync(Guid id)
 		{
-			throw new NotImplementedException();
-		}
-
-		public Task DeleteAsync(T entityToDelete)
-		{
-			throw new NotImplementedException();
-		}
-
-		public Task<IEnumerable<T>> GetAllAsync()
-		{
-			throw new NotImplementedException();
-		}
-
-		public Task<T> GetByIdAysnc(Guid id)
-		{
-			throw new NotImplementedException();
+			var entityToDelete = await _dbSet.FindAsync(id);
+			if (entityToDelete != null)
+			{
+				await DeleteAsync(entityToDelete);
+				return;
+			}
+			var typeName = typeof(T).Name;
+			throw new ArgumentException($"{typeName} with Id {id} does not exist");
 		}
 
-		public Task<bool> InsertAsync(T entityToInsert)
+		public async Task DeleteAsync(T entityToDelete)
 		{
-			throw new NotImplementedException();
+			_dbSet.Remove(entityToDelete);
+			await _appDbContext.SaveChangesAsync();
 		}
 
-		public Task UpdateAsync(T entityToUpdate)
+		public async Task<IEnumerable<T>> GetAllAsync()
 		{
-			throw new NotImplementedException();
+			return await _dbSet.ToListAsync();
+		}
+
+		public virtual async Task<T> GetByIdAysnc(Guid id)
+		{
+			return await _dbSet.FindAsync(id);
+		}
+
+		public virtual async Task<bool> InsertAsync(T entityToInsert)
+		{
+			await _dbSet.AddAsync(entityToInsert);
+			return await _appDbContext.SaveChangesAsync() > 0;
+		}
+
+		public virtual async Task UpdateAsync(T entityToUpdate)
+		{
+			_dbSet.Update(entityToUpdate);
+			await _appDbContext.SaveChangesAsync();
+		}
+
+		protected virtual DbSet<T> Entities
+		{
+			get
+			{
+				if (_dbSet == null)
+					_dbSet = _appDbContext.Set<T>();
+				return _dbSet;
+			}
+		}
+		public virtual IQueryable<T> Table
+		{
+			get
+			{
+				return Entities;
+			}
+		}
+		public virtual IQueryable<T> TableNoTracking
+		{
+			get
+			{
+				return Entities.AsNoTracking();
+			}
 		}
 	}
 }
