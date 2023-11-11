@@ -20,4 +20,8 @@
     <ProjectReference Include="..\BankApp.DataAccess\BankApp.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

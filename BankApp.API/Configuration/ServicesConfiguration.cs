@@ -7,6 +7,10 @@ namespace BankApp.API.Configuration
 	{
 		public static void AddServices(this IServiceCollection services)
 		{
+
+
+
+
 			services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>));
 			
 
