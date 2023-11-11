@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BankApp.DataAccess\BankApp.DataAccess.csproj" />
+    <ProjectReference Include="..\BankApp.BusinessLogic\BankApp.BusinessLogic.csproj" />
   </ItemGroup>
 
 </Project>

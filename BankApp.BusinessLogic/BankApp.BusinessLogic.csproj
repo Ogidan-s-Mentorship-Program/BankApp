@@ -11,4 +11,8 @@
     <Folder Include="Intefaces\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BankApp.DataAccess\BankApp.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
