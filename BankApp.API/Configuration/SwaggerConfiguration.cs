@@ -8,7 +8,12 @@ namespace BankApp.API.Configuration
 		{
 			services.AddSwaggerGen(c =>
 			{
-				c.SwaggerDoc("v1", new OpenApiInfo { Title = "Bank App", Version = "v1" });
+				c.SwaggerDoc("v1", new OpenApiInfo 
+				{ Title = "Bank App", 
+					Version = "v1",
+					 Description = "OG-Mentors Banking App."
+				});
+
 				c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
 				{
 					Name = "Authorization",

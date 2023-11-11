@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerConfiguration();
 builder.Services.AddServices();
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureAuthentication(builder.Configuration);
 builder.Services.AddDbConfig(builder.Configuration);
 
 
@@ -18,10 +20,16 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+	{
+		c.SwaggerEndpoint("/swagger/v1/swagger.json", "Bank App v1");
+	});
+
 }
 
 app.UseHttpsRedirection();
+
+//app.UseAuthentication();
 
 app.UseAuthorization();
 
