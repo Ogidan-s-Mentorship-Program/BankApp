@@ -34,7 +34,6 @@ namespace BankApp.BusinessLogic.Implementations
 					LastName = createUserRequestDTO.LastName,
 					Email = createUserRequestDTO.Email,
 					//Gender = createUserRequestDTO.Gender,
-					//DateOfBirth = createUserRequestDTO.DateOfBirth,
 					EmailConfirmed = true
 				};
 
