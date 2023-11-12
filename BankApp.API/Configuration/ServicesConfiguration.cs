@@ -1,4 +1,6 @@
-﻿using BankApp.DataAccess.Repository.Implementation;
+﻿using BankApp.BusinessLogic.Implementations;
+using BankApp.BusinessLogic.Intefaces;
+using BankApp.DataAccess.Repository.Implementation;
 using BankApp.DataAccess.Repository.Interface;
 
 namespace BankApp.API.Configuration
@@ -7,12 +9,9 @@ namespace BankApp.API.Configuration
 	{
 		public static void AddServices(this IServiceCollection services)
 		{
+			services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>))
+			.AddScoped<IUserService, UserService>();
 
-
-
-
-			services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>));
-			
 
 		}
 	}

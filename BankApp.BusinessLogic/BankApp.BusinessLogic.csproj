@@ -8,11 +8,11 @@
 
   <ItemGroup>
     <Folder Include="Implementations\" />
-    <Folder Include="Intefaces\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BankApp.DataAccess\BankApp.DataAccess.csproj" />
+    <ProjectReference Include="..\BankApp.DTOs\BankApp.DTOs.csproj" />
   </ItemGroup>
 
 </Project>
