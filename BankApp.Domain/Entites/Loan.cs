@@ -8,7 +8,7 @@ namespace BankApp.Domain.Entites
 {
 	public class Loan
     {
-		public Guid Id { get; set; }
+		public Guid Id { get; set; } = Guid.NewGuid();
 		public Guid UserId { get; set; }
 		public string LoanType { get; set; }
 		public decimal LoanAmount { get; set; }

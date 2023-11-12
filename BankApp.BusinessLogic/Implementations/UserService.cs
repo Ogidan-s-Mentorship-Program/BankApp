@@ -1,14 +1,9 @@
 ﻿using BankApp.BusinessLogic.Intefaces;
-using BankApp.Domain.Entites;
-using BankApp.DTOs.RequestDTOs;
-using BankApp.DTOs;
-using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using BankApp.BusinessLogic.Utilities;
+using BankApp.Domain.Entites;
+using BankApp.DTOs;
+using BankApp.DTOs.RequestDTOs;
+using Microsoft.AspNetCore.Identity;
 
 namespace BankApp.BusinessLogic.Implementations
 {
@@ -32,14 +27,9 @@ namespace BankApp.BusinessLogic.Implementations
 					FirstName = createUserRequestDTO.FirstName,
 					LastName = createUserRequestDTO.LastName,
 					Email = createUserRequestDTO.Email,
-					//Gender = createUserRequestDTO.Gender,
+					UserName = createUserRequestDTO.Email.Split()[0],
 					EmailConfirmed = true
 				};
-
-				//if (createUserRequestDTO.Password != createUserRequestDTO.ConfirmedPassword)
-				//{
-				//	return GenericResponse<string>.ErrorResponse("The password and confirmation password do not match.");
-				//}
 
 				IdentityResult result = await _userManager.CreateAsync(user, createUserRequestDTO.Password);
 				if (result.Succeeded)
