@@ -27,7 +27,7 @@ namespace BankApp.BusinessLogic.Implementations
 					FirstName = createUserRequestDTO.FirstName,
 					LastName = createUserRequestDTO.LastName,
 					Email = createUserRequestDTO.Email,
-					UserName = createUserRequestDTO.Email.Split()[0],
+					UserName = createUserRequestDTO.Email.Split('@')[0],
 					EmailConfirmed = true
 				};
 
