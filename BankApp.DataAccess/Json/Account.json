@@ -1,0 +1,62 @@
+[
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789001",
+    "AccountNumber": "1234567890",
+    "Balance": 1000.50,
+    "AccountType": "Savings",
+    "BVN": "12345678901",
+    "NIN": "9876543210",
+    "AccountName": "John Doe",
+    "HolderAddress": "123 Main Street, Cityville",
+    "IsActive": true,
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789001"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789002",
+    "AccountNumber": "2345678901",
+    "Balance": 1500.75,
+    "AccountType": "Checking",
+    "BVN": "12345678902",
+    "NIN": "9876543211",
+    "AccountName": "Jane Smith",
+    "HolderAddress": "456 Oak Avenue, Townsville",
+    "IsActive": false,
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789002"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789003",
+    "AccountNumber": "3456789012",
+    "Balance": 2000.00,
+    "AccountType": "Savings",
+    "BVN": "12345678903",
+    "NIN": "9876543212",
+    "AccountName": "Bob Johnson",
+    "HolderAddress": "789 Pine Street, Villagetown",
+    "IsActive": true,
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789003"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789004",
+    "AccountNumber": "4567890123",
+    "Balance": 1200.25,
+    "AccountType": "Checking",
+    "BVN": "12345678904",
+    "NIN": "9876543213",
+    "AccountName": "Alice Brown",
+    "HolderAddress": "567 Maple Avenue, Hamletville",
+    "IsActive": true,
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789004"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789005",
+    "AccountNumber": "5678901234",
+    "Balance": 1800.90,
+    "AccountType": "Savings",
+    "BVN": "12345678905",
+    "NIN": "9876543214",
+    "AccountName": "Charlie Davis",
+    "HolderAddress": "890 Elm Street, Riverside",
+    "IsActive": false,
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789005"
+  }
+]

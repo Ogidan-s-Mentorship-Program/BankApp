@@ -1,0 +1,137 @@
+[
+  {
+    "Id": "a0a2b1b2-3c4d-5e6f-7a8b-123456789001",
+    "UserName": "user1",
+    "FirstName": "John",
+    "LastName": "Doe",
+    "MiddleName": "M",
+    "Email": "john.doe@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789011",
+        "Extension": "+234",
+        "Number": "8055231234"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789021",
+        "PostalCode": "12345",
+        "MainAddress": "123 Main St",
+        "City": "Cityville",
+        "State": "CA",
+        "Country": "USA"
+      }
+    ],
+    "Gender": "Male",
+    "DateOfBirth": "1990-01-15T00:00:00"
+  },
+  {
+    "Id": "a0a2b1b2-3c4d-5e6f-7a8b-123456789002",
+    "UserName": "user2",
+    "FirstName": "Jane",
+    "LastName": "Doe",
+    "MiddleName": "A",
+    "Email": "jane.doe@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789022",
+        "Extension": "+234",
+        "Number": "8055231543"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789031",
+        "PostalCode": "54321",
+        "MainAddress": "456 Oak St",
+        "City": "Townsville",
+        "State": "NY",
+        "Country": "USA"
+      }
+    ],
+    "Gender": "Female",
+    "DateOfBirth": "1985-08-22T00:00:00"
+  },
+  {
+    "Id": "a0a2b1b2-3c4d-5e6f-7a8b-123456789003",
+    "UserName": "user3",
+    "FirstName": "Bob",
+    "LastName": "Smith",
+    "MiddleName": "J",
+    "Email": "bob.smith@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789033",
+        "Extension": "+234",
+        "Number": "2012345678"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789041",
+        "PostalCode": "SW1A 1AA",
+        "MainAddress": "10 Downing St",
+        "City": "London",
+        "State": "",
+        "Country": "UK"
+      }
+    ],
+    "Gender": "Male",
+    "DateOfBirth": "1978-03-10T00:00:00"
+  },
+  {
+    "Id": "a0a2b1b2-3c4d-5e6f-7a8b-123456789004",
+    "UserName": "user4",
+    "FirstName": "Emily",
+    "LastName": "Johnson",
+    "MiddleName": "L",
+    "Email": "emily.johnson@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789044",
+        "Extension": "+234",
+        "Number": "2087654321"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789051",
+        "PostalCode": "E1 6AN",
+        "MainAddress": "100 Commercial St",
+        "City": "London",
+        "State": "",
+        "Country": "UK"
+      }
+    ],
+    "Gender": "Female",
+    "DateOfBirth": "1992-11-05T00:00:00"
+  },
+  {
+    "Id": "a0a2b1b2-3c4d-5e6f-7a8b-123456789005",
+    "UserName": "user5",
+    "FirstName": "Michael",
+    "LastName": "Brown",
+    "MiddleName": "C",
+    "Email": "michael.brown@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789055",
+        "Extension": "+234",
+        "Number": "9012345678"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "4b48a643-5e13-4f5a-9acf-123456789061",
+        "PostalCode": "100-0001",
+        "MainAddress": "1-1 Marunouchi",
+        "City": "Tokyo",
+        "State": "",
+        "Country": "Japan"
+      }
+    ],
+    "Gender": "Male",
+    "DateOfBirth": "1980-07-18T00:00:00"
+  }
+]

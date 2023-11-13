@@ -1,0 +1,62 @@
+[
+  {
+    "TransactionId": 1,
+    "Description": "Online Shopping",
+    "Amount": 50.00,
+    "TransactionDate": "2023-11-10T10:30:00",
+    "Merchant": "Amazon",
+    "PaymentMethod": "Credit Card",
+    "Category": "Shopping",
+    "Currency": "USD",
+    "Location": "Online",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789001"
+  },
+  {
+    "TransactionId": 2,
+    "Description": "Grocery Store",
+    "Amount": 25.50,
+    "TransactionDate": "2023-11-10T12:45:00",
+    "Merchant": "Local Mart",
+    "PaymentMethod": "Debit Card",
+    "Category": "Groceries",
+    "Currency": "USD",
+    "Location": "City",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789002"
+  },
+  {
+    "TransactionId": 3,
+    "Description": "Dinner",
+    "Amount": 30.00,
+    "TransactionDate": "2023-11-10T19:15:00",
+    "Merchant": "Restaurant XYZ",
+    "PaymentMethod": "Cash",
+    "Category": "Dining",
+    "Currency": "USD",
+    "Location": "Downtown",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789003"
+  },
+  {
+    "TransactionId": 4,
+    "Description": "Gas Station",
+    "Amount": 40.75,
+    "TransactionDate": "2023-11-10T21:30:00",
+    "Merchant": "Quick Fuel",
+    "PaymentMethod": "Fuel Card",
+    "Category": "Fuel",
+    "Currency": "USD",
+    "Location": "Highway",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789004"
+  },
+  {
+    "TransactionId": 5,
+    "Description": "Movie Tickets",
+    "Amount": 15.00,
+    "TransactionDate": "2023-11-10T23:00:00",
+    "Merchant": "Cinema World",
+    "PaymentMethod": "Mobile Wallet",
+    "Category": "Entertainment",
+    "Currency": "USD",
+    "Location": "Mall",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789005"
+  }
+]

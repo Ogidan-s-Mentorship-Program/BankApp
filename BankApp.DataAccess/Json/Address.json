@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789001",
+    "PostalCode": "12345",
+    "MainAddress": "123 Main St",
+    "City": "Cityville",
+    "State": "Stateville",
+    "Country": "Countryland",
+    "UserId": "user123"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789002",
+    "PostalCode": "54321",
+    "MainAddress": "456 Oak Ave",
+    "City": "Townsville",
+    "State": "Stateville",
+    "Country": "Countryland",
+    "UserId": "user456"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789003",
+    "PostalCode": "98765",
+    "MainAddress": "789 Pine St",
+    "City": "Villagetown",
+    "State": "Stateville",
+    "Country": "Countryland",
+    "UserId": "user789"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789004",
+    "PostalCode": "56789",
+    "MainAddress": "567 Maple Ave",
+    "City": "Hamletville",
+    "State": "Stateville",
+    "Country": "Countryland",
+    "UserId": "user567"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789005",
+    "PostalCode": "43210",
+    "MainAddress": "890 Elm St",
+    "City": "Riverside",
+    "State": "Stateville",
+    "Country": "Countryland",
+    "UserId": "user890"
+  }
+]

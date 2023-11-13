@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789001",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789001",
+    "LoanType": "Personal Loan",
+    "LoanAmount": 5000.00,
+    "OutstandingBalance": 2500.00,
+    "InterestRate": 5.5,
+    "NextPaymentDueDate": "2023-12-01T00:00:00"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789002",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789002",
+    "LoanType": "Home Loan",
+    "LoanAmount": 100000.00,
+    "OutstandingBalance": 75000.00,
+    "InterestRate": 4.25,
+    "NextPaymentDueDate": "2024-01-01T00:00:00"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789003",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789003",
+    "LoanType": "Auto Loan",
+    "LoanAmount": 20000.00,
+    "OutstandingBalance": 12000.00,
+    "InterestRate": 6.0,
+    "NextPaymentDueDate": "2023-11-15T00:00:00"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789004",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789004",
+    "LoanType": "Education Loan",
+    "LoanAmount": 15000.00,
+    "OutstandingBalance": 5000.00,
+    "InterestRate": 3.75,
+    "NextPaymentDueDate": "2023-12-05T00:00:00"
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789005",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789005",
+    "LoanType": "Business Loan",
+    "LoanAmount": 50000.00,
+    "OutstandingBalance": 30000.00,
+    "InterestRate": 7.0,
+    "NextPaymentDueDate": "2023-11-20T00:00:00"
+  }
+]

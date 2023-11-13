@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789001",
+    "Message": "You have a new message.",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789001",
+    "IsRead": false
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789002",
+    "Message": "Payment received for your order.",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789002",
+    "IsRead": true
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789003",
+    "Message": "Upcoming event reminder: Seminar at 3 PM.",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789003",
+    "IsRead": false
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789004",
+    "Message": "New product launch - Check it out!",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789004",
+    "IsRead": true
+  },
+  {
+    "Id": "4b48a643-5e13-4f5a-9acf-123456789005",
+    "Message": "Important system update scheduled for tomorrow.",
+    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789005",
+    "IsRead": false
+  }
+]
