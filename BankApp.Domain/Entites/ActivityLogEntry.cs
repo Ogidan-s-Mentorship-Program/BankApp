@@ -8,6 +8,7 @@ namespace BankApp.Domain.Entites
 {
     public class ActivityLogEntry
     {
+            public Guid Id { get; set; } = Guid.NewGuid();
             public Guid LogEntryId { get; set; }
             public DateTime Timestamp { get; set; }
             public string? User { get; set; }

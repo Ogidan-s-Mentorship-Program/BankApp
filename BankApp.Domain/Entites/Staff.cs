@@ -8,7 +8,7 @@ namespace BankApp.Domain.Entites
 {
 	public class Staff 
     {
-		public new Guid Id { get; set; }
+		public Guid Id { get; set; } = Guid.NewGuid();
 		public string Role { get; set; }
 		public string Department { get; set; }
 		public Guid UserId { get; set; }

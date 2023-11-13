@@ -8,7 +8,7 @@ namespace BankApp.Domain.Entites
 {
 	public class Guarantor 
     {
-		public new Guid Id { get; set; }
+		public Guid Id { get; set; } = Guid.NewGuid();	
 		public Guid LoanId { get; set; }
 		public string BVN { get; set; }
 		public string NIN { get; set; }

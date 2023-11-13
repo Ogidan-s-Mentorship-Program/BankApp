@@ -8,6 +8,7 @@ namespace BankApp.Domain.Entites
 {
     public class Transactions
     {
+		public Guid Id { get; set; } = Guid.NewGuid();
 		public int TransactionId { get; set; }
 		public string Description { get; set; }
 		public decimal Amount { get; set; }
