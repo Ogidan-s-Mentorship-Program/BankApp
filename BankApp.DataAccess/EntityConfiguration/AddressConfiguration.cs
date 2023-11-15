@@ -13,7 +13,7 @@ namespace BankApp.Data.EntityConfiguration
             builder.Property(a => a.PostalCode)
                 .HasMaxLength(10);
 
-            builder.Property(a => a.MainAddress)
+            builder.Property(a => a.Street)
                 .HasMaxLength(255);
 
             builder.Property(a => a.City)
