@@ -2,7 +2,7 @@
   {
     "Id": "e2dbb6db-4cc4-44c8-af39-8488ec69f1e7",
     "PostalCode": "12345",
-    "MainAddress": "123 Main St",
+    "Street": "123 Main St",
     "City": "Cityville",
     "State": "Stateville",
     "Country": "Countryland",
@@ -11,7 +11,7 @@
   {
     "Id": "aec687f3-5cf5-4e4e-9ee6-96e8efdf4390",
     "PostalCode": "54321",
-    "MainAddress": "456 Oak Ave",
+    "Street": "456 Oak Ave",
     "City": "Townsville",
     "State": "Stateville",
     "Country": "Countryland",
@@ -20,7 +20,7 @@
   {
     "Id": "7044ef58-d8e9-4a50-aa49-309c13721ef6",
     "PostalCode": "98765",
-    "MainAddress": "789 Pine St",
+    "Street": "789 Pine St",
     "City": "Villagetown",
     "State": "Stateville",
     "Country": "Countryland",
@@ -29,7 +29,7 @@
   {
     "Id": "95c9b0d2-7000-4d8e-90f7-2fbd7f622b97",
     "PostalCode": "56789",
-    "MainAddress": "567 Maple Ave",
+    "Street": "567 Maple Ave",
     "City": "Hamletville",
     "State": "Stateville",
     "Country": "Countryland",
@@ -38,7 +38,7 @@
   {
     "Id": "c7c6e86d-94cc-418a-a903-67ef9f4c3e0e",
     "PostalCode": "43210",
-    "MainAddress": "890 Elm St",
+    "Street": "890 Elm St",
     "City": "Riverside",
     "State": "Stateville",
     "Country": "Countryland",
