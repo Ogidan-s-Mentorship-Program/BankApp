@@ -1,7 +1,7 @@
 [
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789001",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789001",
+    "Id": "aef2a1a7-86b3-4a5d-82ae-71977d745c81",
+    "UserId": "38c465cc-0fc3-4f09-8f29-18f0c7e48c90",
     "LoanType": "Personal Loan",
     "LoanAmount": 5000.00,
     "OutstandingBalance": 2500.00,
@@ -9,8 +9,8 @@
     "NextPaymentDueDate": "2023-12-01T00:00:00"
   },
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789002",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789002",
+    "Id": "3f5e0572-7e91-45ae-a2e3-90df2a20a6a5",
+    "UserId": "b43f0f11-af01-4c67-8f4e-8330e4f3c35d",
     "LoanType": "Home Loan",
     "LoanAmount": 100000.00,
     "OutstandingBalance": 75000.00,
@@ -18,8 +18,8 @@
     "NextPaymentDueDate": "2024-01-01T00:00:00"
   },
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789003",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789003",
+    "Id": "43a7d079-5baa-4b77-bd1a-913f9d57ea0b",
+    "UserId": "7c8c6b1b-5f89-4964-8bb5-0e695f197a10",
     "LoanType": "Auto Loan",
     "LoanAmount": 20000.00,
     "OutstandingBalance": 12000.00,
@@ -27,8 +27,8 @@
     "NextPaymentDueDate": "2023-11-15T00:00:00"
   },
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789004",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789004",
+    "Id": "1e801849-9c4f-46ea-8b4f-89334b441e74",
+    "UserId": "d18d1a8a-e678-4ec9-a44c-1b8a422e7d69",
     "LoanType": "Education Loan",
     "LoanAmount": 15000.00,
     "OutstandingBalance": 5000.00,
@@ -36,8 +36,8 @@
     "NextPaymentDueDate": "2023-12-05T00:00:00"
   },
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789005",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789005",
+    "Id": "5ac54f7d-141c-432e-8c8c-79eaae48ad1d",
+    "UserId": "4ff388b4-29cc-4a33-bc12-8c3de5178bd1",
     "LoanType": "Business Loan",
     "LoanAmount": 50000.00,
     "OutstandingBalance": 30000.00,

@@ -1,19 +1,20 @@
 [
   {
-    "LogEntryId": "4b48a643-5e13-4f5a-9acf-123456789001",
+    "LogEntryId": "f049f3d7-aeff-41e4-bc8f-b7ea509c9bd2",
     "Timestamp": "2023-11-10T08:30:00",
     "User": "john_doe",
     "EventType": "Login",
     "Details": "User logged in successfully",
+    "Result": "Success",
     "Duration": "00:00:03",
-    "RequestData": "{\"username\": \"john_doe\", \"password\": \"0000"}",
+    "RequestData": "{\"status\": \"OK\"}",
     "ResponseData": "{\"status\": \"OK\"}",
     "EventSource": "Web",
     "TransactionType": null
   },
 
   {
-    "LogEntryId": "4b48a643-5e13-4f5a-9acf-123456789002",
+    "LogEntryId": "89a3a0f2-23b7-4e0d-b52a-105b4b29bf06",
     "Timestamp": "2023-11-10T12:45:00",
     "User": "jane_smith",
     "EventType": "FileUpload",
@@ -25,8 +26,9 @@
     "EventSource": "Desktop",
     "TransactionType": null
   },
+
   {
-    "LogEntryId": "4b48a643-5e13-4f5a-9acf-123456789003",
+    "LogEntryId": "58e00a74-d438-4c9d-9b46-9ff9ed6ad52f",
     "Timestamp": "2023-11-10T15:20:00",
     "User": "bob_johnson",
     "EventType": "Logout",
@@ -38,8 +40,9 @@
     "EventSource": "Mobile",
     "TransactionType": null
   },
+
   {
-    "LogEntryId": "4b48a643-5e13-4f5a-9acf-123456789004",
+    "LogEntryId": "2756868b-b646-46f4-8e62-8efc367e3d02",
     "Timestamp": "2023-11-10T18:10:00",
     "User": "alice_brown",
     "EventType": "Deposit",
@@ -51,8 +54,9 @@
     "EventSource": "ATM",
     "TransactionType": "Deposit"
   },
+
   {
-    "LogEntryId": "4b48a643-5e13-4f5a-9acf-123456789005",
+    "LogEntryId": "d8b20f5c-33f8-4cb8-b826-321a81888818",
     "Timestamp": "2023-11-10T20:45:00",
     "User": "charlie_davis",
     "EventType": "Transfer",

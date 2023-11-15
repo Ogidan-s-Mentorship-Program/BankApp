@@ -1,32 +1,32 @@
 [
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789001",
+    "Id": "e9d2f5b7-9b0b-416f-a8ae-21d7f1e97ee4",
     "Message": "You have a new message.",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789001",
+    "UserId": "7e9a1828-6437-4a7a-92d8-5eae1c570b0f",
     "IsRead": false
   },
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789002",
+    "Id": "7d4530fc-4c1b-4d33-a02b-df7a7b1d4617",
     "Message": "Payment received for your order.",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789002",
+    "UserId": "8c3ed4f0-2be4-4e7c-83fe-632ea80409a2",
     "IsRead": true
   },
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789003",
+    "Id": "201ca8e3-7a0a-457b-a30a-975a0ff5a0ce",
     "Message": "Upcoming event reminder: Seminar at 3 PM.",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789003",
+    "UserId": "15e7c372-17e7-4e17-a5cc-69f2c0f08022",
     "IsRead": false
   },
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789004",
+    "Id": "b9e005f0-95a7-45d3-bbfd-d8c862f6bf8e",
     "Message": "New product launch - Check it out!",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789004",
+    "UserId": "b8e5878f-85d6-44a9-8f0f-b37f9b74d1e7",
     "IsRead": true
   },
   {
-    "Id": "4b48a643-5e13-4f5a-9acf-123456789005",
+    "Id": "c95e008a-8be7-4ff2-b4eb-764fc3c89123",
     "Message": "Important system update scheduled for tomorrow.",
-    "UserId": "a0a2b1b2-3c4d-5e6f-7a8b-123456789005",
+    "UserId": "34d3c1ae-8f31-4d88-b6e2-b08f6f9bc487",
     "IsRead": false
   }
 ]
