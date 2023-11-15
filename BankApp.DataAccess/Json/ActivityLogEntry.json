@@ -5,7 +5,6 @@
     "User": "john_doe",
     "EventType": "Login",
     "Details": "User logged in successfully",
-    "Result": "Success",
     "Duration": "00:00:03",
     "RequestData": "{\"username\": \"john_doe\", \"password\": \"0000"}",
     "ResponseData": "{\"status\": \"OK\"}",
