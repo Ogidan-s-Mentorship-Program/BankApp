@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BankApp.BusinessLogic.Intefaces;
+using BankApp.DTOs.RequestDTOs;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BankApp.API.Controllers
@@ -7,10 +9,20 @@ namespace BankApp.API.Controllers
     [ApiController]
     public class AuthenticationController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Testing()
+        private readonly IAuthenticationService _authenticationService;
+        public AuthenticationController(IAuthenticationService authenticationService)
         {
-            return Ok();
+            _authenticationService = authenticationService;
+        }
+        [HttpPost("Login")]
+        public async Task<IActionResult> LoginAsync(LoginRequestDTO loginRequestDTO)
+        {
+            var Response = await _authenticationService.LoginAsync(loginRequestDTO);
+            if (Response.Success)
+            {
+                return Ok(Response);
+            }
+            return BadRequest(Response);
         }
     }
 }
