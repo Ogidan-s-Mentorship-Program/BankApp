@@ -10,7 +10,9 @@ namespace BankApp.API.Configuration
 		public static void AddServices(this IServiceCollection services)
 		{
 			services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>))
-			.AddScoped<IUserService, UserService>();
+			.AddScoped<IUserService, UserService>()
+			.AddScoped<ITokenGenerator, TokenGenerator>()
+			.AddScoped<IAuthenticationService, AuthenticationService>();
 
 
 		}
