@@ -24,7 +24,7 @@ namespace BankApp.DTOs.RequestDTOs
 		[Required(ErrorMessage = "Country is required.")]
 		public string Country { get; set; } = string.Empty;
 
-		[JsonIgnore]
+		//[JsonIgnore]
 		public Guid UserId { get; set; }
 	}
 }

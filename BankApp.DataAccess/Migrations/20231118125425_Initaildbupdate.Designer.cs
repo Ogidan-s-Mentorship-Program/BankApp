@@ -4,6 +4,7 @@ using BankApp.DataAccess.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BankApp.DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231118125425_Initaildbupdate")]
+    partial class Initaildbupdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -645,20 +647,16 @@ namespace BankApp.DataAccess.Migrations
 
             modelBuilder.Entity("BankApp.Domain.Entites.Address", b =>
                 {
-                    b.HasOne("BankApp.Domain.Entites.User", "User")
+                    b.HasOne("BankApp.Domain.Entites.User", null)
                         .WithMany("Addresses")
                         .HasForeignKey("UserId1");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("BankApp.Domain.Entites.PhoneNumber", b =>
                 {
-                    b.HasOne("BankApp.Domain.Entites.User", "User")
+                    b.HasOne("BankApp.Domain.Entites.User", null)
                         .WithMany("PhoneNumbers")
                         .HasForeignKey("UserId1");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

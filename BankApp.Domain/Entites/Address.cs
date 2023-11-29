@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,10 @@ namespace BankApp.Domain.Entites
 		public string City { get; set; } = string.Empty;
 		public string State { get; set; } = string.Empty;
 		public string Country { get; set; } = string.Empty;
-		public Guid UserId { get; set; } 
+
+		public virtual User User { get; set; }
+
+		[ForeignKey("UserId")]
+		public virtual Guid UserId { get; set; } 
     }
 }

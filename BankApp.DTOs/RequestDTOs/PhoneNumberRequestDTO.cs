@@ -17,7 +17,7 @@ namespace BankApp.DTOs.RequestDTOs
 		[RegularExpression(@"^\d{1,15}$", ErrorMessage = "Invalid phone number format.")]
 		public string Number { get; set; }
 
-		[JsonIgnore]
+		//[JsonIgnore]
 		public Guid UserId { get; set; }
 	}
 }
