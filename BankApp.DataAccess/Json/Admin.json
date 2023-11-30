@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "17520a03-95a8-4a07-9a7c-9e040db2e1b1",
+    "Role": "Administrator",
+    "UserId": "7c8e3a85-2ab9-4c5a-8a5e-9d46c153fe55",
+    "StaffId": "STF001"
+  },
+  {
+    "Id": "73f1b7d7-2ad4-4c50-aa6e-af0fc108b3e1",
+    "Role": "Supervisor",
+    "UserId": "fd14b8d3-1c6f-4987-b2e9-682fb7a2a8af",
+    "StaffId": "STF002"
+  },
+  {
+    "Id": "3cda4f11-c8e2-4b01-8d09-9e3e0e2e2c8a",
+    "Role": "Manager",
+    "UserId": "a1f6f0a2-9e2d-4bf2-8d37-5e1e5ef3a9bd",
+    "StaffId": "STF003"
+  },
+  {
+    "Id": "488ed982-08e1-4ed7-b23d-1d1eb9b79c49",
+    "Role": "Administrator",
+    "UserId": "3f9b6cc6-90c5-4a22-a343-d5f8193f1a8c",
+    "StaffId": "STF004"
+  },
+  {
+    "Id": "09e8c8f0-bab3-4ab2-b576-ff5bda6ce29a",
+    "Role": "Supervisor",
+    "UserId": "812f21e8-6a14-4b4a-89e3-08be15cfaf7d",
+    "StaffId": "STF005"
+  }
+]

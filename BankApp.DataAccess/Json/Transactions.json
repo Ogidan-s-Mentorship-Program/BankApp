@@ -1,0 +1,62 @@
+[
+  {
+    "TransactionId": "TRXID2023-ABC123",
+    "Description": "Online Shopping",
+    "Amount": 50.00,
+    "TransactionDate": "2023-11-10T10:30:00",
+    "Merchant": "Amazon",
+    "PaymentMethod": "Credit Card",
+    "Category": "Shopping",
+    "Currency": "USD",
+    "Location": "Online",
+    "UserId": "4e3fd5a7-18b2-4b23-b6a8-04219a7a4f8d"
+  },
+  {
+    "TransactionId": "TRXID2023-DEF456",
+    "Description": "Grocery Store",
+    "Amount": 25.50,
+    "TransactionDate": "2023-11-10T12:45:00",
+    "Merchant": "Local Mart",
+    "PaymentMethod": "Debit Card",
+    "Category": "Groceries",
+    "Currency": "USD",
+    "Location": "City",
+    "UserId": "0d1b0584-e5d0-4e8c-af1e-7cc5018ac0b1"
+  },
+  {
+    "TransactionId": "TRXID2023-GHI789",
+    "Description": "Dinner",
+    "Amount": 30.00,
+    "TransactionDate": "2023-11-10T19:15:00",
+    "Merchant": "Restaurant XYZ",
+    "PaymentMethod": "Cash",
+    "Category": "Dining",
+    "Currency": "USD",
+    "Location": "Downtown",
+    "UserId": "3b6a1c2e-225e-4d4f-8c66-09608d3ee6f3"
+  },
+  {
+    "TransactionId": "TRXID2023-JKL012",
+    "Description": "Gas Station",
+    "Amount": 40.75,
+    "TransactionDate": "2023-11-10T21:30:00",
+    "Merchant": "Quick Fuel",
+    "PaymentMethod": "Fuel Card",
+    "Category": "Fuel",
+    "Currency": "USD",
+    "Location": "Highway",
+    "UserId": "f4b1b855-8bf1-4ab3-94ae-cbdcb7c1c860"
+  },
+  {
+    "TransactionId": "TRXID2023-MNO345",
+    "Description": "Movie Tickets",
+    "Amount": 15.00,
+    "TransactionDate": "2023-11-10T23:00:00",
+    "Merchant": "Cinema World",
+    "PaymentMethod": "Mobile Wallet",
+    "Category": "Entertainment",
+    "Currency": "USD",
+    "Location": "Mall",
+    "UserId": "c411d5e3-442e-40a8-a313-c5d5da1e32a6"
+  }
+]

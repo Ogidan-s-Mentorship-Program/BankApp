@@ -1,0 +1,147 @@
+[
+  {
+    "Id": "7c8e3a85-2ab9-4c5a-8a5e-9d46c153fe55",
+    "UserName": "user1",
+    "FirstName": "John",
+    "LastName": "Doe",
+    "MiddleName": "M",
+    "BVN": "48293017654",
+    "NIN": "12345678901",
+    "Email": "john.doe@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "d4ea22b9-e3f7-4d4e-8e27-d4bb8db38b14",
+        "Extension": "+234",
+        "Number": "8055231234"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "e2dbb6db-4cc4-44c8-af39-8488ec69f1e7",
+        "PostalCode": "12345",
+        "MainAddress": "123 Main St",
+        "City": "Cityville",
+        "State": "CA",
+        "Country": "USA"
+      }
+    ],
+    "Gender": "Male",
+    "DateOfBirth": "1990-01-15T00:00:00"
+  },
+  {
+    "Id": "fd14b8d3-1c6f-4987-b2e9-682fb7a2a8af",
+    "UserName": "user2",
+    "FirstName": "Jane",
+    "LastName": "Doe",
+    "MiddleName": "A",
+    "BVN": "71938465023",
+    "NIN": "98765432109",
+    "Email": "jane.doe@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "0b9c4a61-8a09-4c72-9e78-43cc16c9c586",
+        "Extension": "+234",
+        "Number": "8055231543"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "aec687f3-5cf5-4e4e-9ee6-96e8efdf4390",
+        "PostalCode": "54321",
+        "MainAddress": "456 Oak St",
+        "City": "Townsville",
+        "State": "NY",
+        "Country": "USA"
+      }
+    ],
+    "Gender": "Female",
+    "DateOfBirth": "1985-08-22T00:00:00"
+  },
+  {
+    "Id": "a1f6f0a2-9e2d-4bf2-8d37-5e1e5ef3a9bd",
+    "UserName": "user3",
+    "FirstName": "Bob",
+    "LastName": "Smith",
+    "MiddleName": "J",
+    "BVN": "56389012457",
+    "NIN": "23456789012",
+    "Email": "bob.smith@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "1cfecaf5-9758-4d87-8692-9b5b0de88238",
+        "Extension": "+234",
+        "Number": "2012345678"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "7044ef58-d8e9-4a50-aa49-309c13721ef6",
+        "PostalCode": "SW1A 1AA",
+        "MainAddress": "10 Downing St",
+        "City": "London",
+        "State": "",
+        "Country": "UK"
+      }
+    ],
+    "Gender": "Male",
+    "DateOfBirth": "1978-03-10T00:00:00"
+  },
+  {
+    "Id": "3f9b6cc6-90c5-4a22-a343-d5f8193f1a8c",
+    "UserName": "user4",
+    "FirstName": "Emily",
+    "LastName": "Johnson",
+    "MiddleName": "L",
+    "BVN": "82674193502",
+    "NIN": "89012345678",
+    "Email": "emily.johnson@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "5c5ffec0-6ec9-46a8-b361-d07a7c102788",
+        "Extension": "+234",
+        "Number": "2087654321"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "95c9b0d2-7000-4d8e-90f7-2fbd7f622b97",
+        "PostalCode": "E1 6AN",
+        "MainAddress": "100 Commercial St",
+        "City": "London",
+        "State": "",
+        "Country": "UK"
+      }
+    ],
+    "Gender": "Female",
+    "DateOfBirth": "1992-11-05T00:00:00"
+  },
+  {
+    "Id": "812f21e8-6a14-4b4a-89e3-08be15cfaf7d",
+    "UserName": "user5",
+    "FirstName": "Michael",
+    "LastName": "Brown",
+    "MiddleName": "C",
+    "BVN": "39516820745",
+    "NIN": "34567890123",
+    "Email": "michael.brown@example.com",
+    "PhoneNumbers": [
+      {
+        "Id": "82b66a90-3b37-4f37-b6c8-18a93d4c2c7d",
+        "Extension": "+234",
+        "Number": "9012345678"
+      }
+    ],
+    "Addresses": [
+      {
+        "Id": "c7c6e86d-94cc-418a-a903-67ef9f4c3e0e",
+        "PostalCode": "100-0001",
+        "MainAddress": "1-1 Marunouchi",
+        "City": "Tokyo",
+        "State": "",
+        "Country": "Japan"
+      }
+    ],
+    "Gender": "Male",
+    "DateOfBirth": "1980-07-18T00:00:00"
+  }
+]
