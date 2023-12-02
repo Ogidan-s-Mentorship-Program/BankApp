@@ -4,6 +4,7 @@ using BankApp.Domain.Entites;
 using BankApp.DTOs;
 using BankApp.DTOs.RequestDTOs;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System.Net.Mail;
 
 namespace BankApp.BusinessLogic.Implementations
@@ -77,6 +78,23 @@ namespace BankApp.BusinessLogic.Implementations
 
 			return GenericResponse<string>.ErrorResponse("Email already exists");
 		}
+
+		public async Task<GenericResponse<string>> UpdateUserActiveStatusAsync(DeleteUserRequestDTO deleteUserRequestDTO)
+		{
+            var updateUser = await _userManager.FindByIdAsync(deleteUserRequestDTO.UserId.ToString());
+
+            if (updateUser != null)
+			{
+				updateUser.isActive = false;
+
+				await _userManager.UpdateAsync(updateUser);
+
+				return GenericResponse<string>.SuccessResponse("User status Updated Successfully", "Successful");
+			}
+
+			return GenericResponse<string>.ErrorResponse("No User Found");
+
+        } 
 
 
 		//	public async Task<GenericResponse<string>> CreateUserAsync(CreateUserRequestDTO createUserRequestDTO)
