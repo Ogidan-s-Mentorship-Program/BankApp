@@ -4,18 +4,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.API", "BankApp.API\BankApp.API.csproj", "{F6570730-2CCD-4BD8-91FD-6AA5584D0004}"
+	ProjectSection(ProjectDependencies) = postProject
+		{45E78A51-EB77-4DA2-B63A-C2737D992999} = {45E78A51-EB77-4DA2-B63A-C2737D992999}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.BusinessLogic", "BankApp.BusinessLogic\BankApp.BusinessLogic.csproj", "{697B7C15-1401-477B-8202-36AB334933E7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.DataAccess", "BankApp.DataAccess\BankApp.DataAccess.csproj", "{9D55E423-5D2A-4F55-B036-B38358ED284C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Domain", "BankApp.Domain\BankApp.Domain.csproj", "{59B91919-A00E-4AA8-9BBC-471BEED932FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.Domain", "BankApp.Domain\BankApp.Domain.csproj", "{59B91919-A00E-4AA8-9BBC-471BEED932FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.DTOs", "BankApp.DTOs\BankApp.DTOs.csproj", "{45E78A51-EB77-4DA2-B63A-C2737D992999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.DTOs", "BankApp.DTOs\BankApp.DTOs.csproj", "{45E78A51-EB77-4DA2-B63A-C2737D992999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Services", "BankApp.Services\BankApp.Services.csproj", "{E7EA2FC6-D6C8-4DF6-9FA9-45796B8FCA5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.Services", "BankApp.Services\BankApp.Services.csproj", "{E7EA2FC6-D6C8-4DF6-9FA9-45796B8FCA5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Testing", "BankApp.Testing\BankApp.Testing.csproj", "{48361A81-64FC-421F-B3AA-5A6AFE6B1649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.Testing", "BankApp.Testing\BankApp.Testing.csproj", "{48361A81-64FC-421F-B3AA-5A6AFE6B1649}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

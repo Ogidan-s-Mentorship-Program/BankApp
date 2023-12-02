@@ -19,7 +19,9 @@ namespace BankApp.Domain.Entites
 		public string BVN { get; set; }
 		public string NIN { get; set; }
 		public DateTime DateOfBirth { get; set; }
-	}
+
+        public bool isActive = true;
+    }
 
 	public enum Gender
 	{

@@ -9,7 +9,7 @@ namespace BankApp.DataAccess.Repository.Interface
 	public interface IGenericRepo<T> where T : class
 	{
 		Task<IEnumerable<T>> GetAllAsync();
-		Task<T> GetByIdAysnc(Guid id);
+		Task <T> GetByIdAysnc(Guid id);
 		Task<bool> InsertAsync(T entityToInsert);
 		Task UpdateAsync(T entityToUpdate);
 		Task DeleteAsync(Guid id);
