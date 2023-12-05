@@ -74,8 +74,78 @@ namespace BankApp.BusinessLogic.Implementations
 
 				return GenericResponse<string>.ErrorResponse("User creation failed");
 			}
+<<<<<<< HEAD
+			return GenericResponse<string>.ErrorResponse("Email already exist");
+		}
+
+        //public async Task<GenericResponse<string>> UpdateUserAsync(string userId, UpdateUserRequestDTO updateUserRequestDTO)
+        //{
+        //    User user = await _userManager.FindByIdAsync(userId);
+
+        //    if (user == null)
+        //    {
+        //        return GenericResponse<string>.ErrorResponse("User not found");
+        //    }
+
+        //    user.FirstName = updateUserRequestDTO.FirstName;
+        //    user.LastName = updateUserRequestDTO.LastName;
+        //    user.MiddleName = updateUserRequestDTO.MiddleName;
+        //    user.Email = updateUserRequestDTO.Email;
+        //    user.PhoneNumbers = updateUserRequestDTO.PhoneNumbers;
+        //    user.Addresses = updateUserRequestDTO.Addresses;
+        //    user.DateOfBirth = updateUserRequestDTO.DateOfBirth;
+
+
+
+
+        //    IdentityResult result = await _userManager.UpdateAsync(user);
+
+        //    if (result.Succeeded)
+        //    {
+        //        return GenericResponse<string>.SuccessResponse("User updated successfully", "Sucessful");
+        //    }
+
+        //    return GenericResponse<string>.ErrorResponse("Failed to update user");
+        //}
+        public async Task<GenericResponse<string>> UpdateUserAsync(string userId, UpdateUserRequestDTO updateUserRequestDTO)
+        {
+            Console.WriteLine($"Attempting to update user. UserId: {userId}");
+
+            User user = await _userManager.FindByIdAsync(userId);
+
+            if (user == null)
+            {
+                return GenericResponse<string>.ErrorResponse("User not found");
+            }
+
+            user.FirstName = updateUserRequestDTO.FirstName;
+            user.LastName = updateUserRequestDTO.LastName;
+            user.MiddleName = updateUserRequestDTO.MiddleName;
+            user.Email = updateUserRequestDTO.Email;
+            user.Gender = updateUserRequestDTO.Gender.ToString();
+            user.Addresses.Clear();
+            user.Addresses.Add(updateUserRequestDTO.Addresses); 
+            user.PhoneNumbers.Clear();
+            user.PhoneNumbers.Add(updateUserRequestDTO.PhoneNumbers); 
+            user.DateOfBirth = updateUserRequestDTO.DateOfBirth;
+
+            IdentityResult result = await _userManager.UpdateAsync(user);
+
+            if (result.Succeeded)
+            {
+                Console.WriteLine($"User updated successfully. UserId: {userId}");
+                return GenericResponse<string>.SuccessResponse("User updated successfully", "Successful");
+            }
+
+            return GenericResponse<string>.ErrorResponse("Failed to update user");
+        }
+
+
+    }
+=======
 
 			return GenericResponse<string>.ErrorResponse("Email already exists");
 		}		
 	}
+>>>>>>> master
 }

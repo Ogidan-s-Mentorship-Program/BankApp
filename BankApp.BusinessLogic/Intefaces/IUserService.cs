@@ -11,5 +11,6 @@ namespace BankApp.BusinessLogic.Intefaces
 	public interface IUserService
 	{
 		Task<GenericResponse<string>> CreateUserAsync(CreateUserRequestDTO createUserRequestDTO);
-	}
+        Task<GenericResponse<string>> UpdateUserAsync(string userId, UpdateUserRequestDTO updateUserRequestDTO);
+    }
 }
